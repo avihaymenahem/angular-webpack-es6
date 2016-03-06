@@ -86,3 +86,10 @@ It will start a local server using `webpack-dev-server` which will watch, build 
 # License
 
 [MIT](/LICENSE)
+
+# Credits
+This project is based on several projects and ideas:
+* [Angular Tips](https://github.com/preboot/angular-webpack)
+* [Airbnb](https://github.com/airbnb/javascript)
+* [NG Best Practices](https://medium.com/@lightingbeetle/some-best-practices-when-building-a-large-angular-application-c346734a4e9c#.hu01mlu3b)
+* [John Papa](https://github.com/johnpapa/angular-styleguide)
