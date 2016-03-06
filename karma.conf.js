@@ -2,6 +2,8 @@
 
 // Reference: http://karma-runner.github.io/0.12/config/configuration-file.html
 module.exports = function karmaConfig (config) {
+    const TEST_PORT = 8889;
+
     config.set({
         frameworks: [ 'jasmine' ],
         reporters: [ 'progress' ,'coverage' ],
@@ -35,10 +37,6 @@ module.exports = function karmaConfig (config) {
         },
 
         webpack: require('./webpack.config'),
-        port: 9898,
-
-        webpackMiddleware: {
-            noInfo: true
-        }
+        port: TEST_PORT
     });
 };
