@@ -1,12 +1,10 @@
-# angular-webpack
+# angular-webpack-es6
 
 [![Dependency Status](https://david-dm.org/avihaymenahem/angular-webpack-es6/status.svg)](https://david-dm.org/avihaymenahem/angular-webpack-es6#info=dependencies) [![devDependency Status](https://david-dm.org/avihaymenahem/angular-webpack-es6/dev-status.svg)](https://david-dm.org/avihaymenahem/angular-webpack-es6#info=devDependencies)
 
-A complete, yet simple, starter for Angular using Webpack.
+The ultimate bundle for large-scale applications developed at [Clicktale](https://www.clicktale.com/) which includes the top notch technologies including:
 
-This workflow serves as a starting point for building Angular 1.x applications using Webpack. Should be noted that apart from the pre-installed angular package, this workflow is pretty much generic.
-
-* Heavily commented webpack configuration with reasonable defaults.
+* Complete webpack bundling with support for multiple file types.
 * ES6, and ES7 support with babel.
 * Source maps included in all builds.
 * Development server with live reload.
@@ -23,11 +21,11 @@ This workflow serves as a starting point for building Angular 1.x applications u
 > Clone/Download the repo then edit `app.js` inside [`/src/app/app.js`](/src/app/app.js)
 
 ```bash
-# clone our repo
-$ git clone https://github.com/avihaymenahem/angular-webpack-es6.git my-app
+# clone the repo
+$ git clone https://github.com/avihaymenahem/angular-webpack-es6.git app
 
 # change directory to your app
-$ cd my-app
+$ cd app
 
 # install the dependencies with npm
 $ npm install
