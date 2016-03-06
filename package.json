@@ -11,7 +11,7 @@
     "start": "npm run server"
   },
   "author": "Avihay Menahem",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "angular": "^1.5.0",
     "angular-ui-router": "^0.2.18"
