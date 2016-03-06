@@ -64,9 +64,9 @@ module.exports = function makeWebpackConfig () {
             test: /\.(json)/,
             loader: 'raw',
             query: { name: `${ASSETS_PATH}/data/${BASE_FILE_NAME}` }
-        }, {
+        },  {
             test: /\.html$/,
-            loader: 'raw'
+            loader: "html"
         },{
             test: /\.scss$/,
             loaders: ["style", "css", "sass"]
@@ -83,6 +83,10 @@ module.exports = function makeWebpackConfig () {
             loader: 'isparta-instrumenter'
         })
     }
+
+    config.module.htmlLoader = {
+        ignoreCustomFragments: [/\{\{.*?}}/]
+    };
 
     config.postcss = [
         autoprefixer({

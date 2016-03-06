@@ -13,6 +13,7 @@ The ultimate bundle for large-scale applications developed at [Clicktale](https:
 * Code coverage when tests are run.
 * No gulp and no grunt, just npm scripts.
 * Sass loader to include files on js
+* Assets versioning
 
 >Warning: Make sure you're using the latest version of Node.js and NPM
 
