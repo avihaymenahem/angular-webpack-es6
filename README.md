@@ -2,7 +2,7 @@
 
 [![Dependency Status](https://david-dm.org/avihaymenahem/angular-webpack-es6/status.svg)](https://david-dm.org/avihaymenahem/angular-webpack-es6#info=dependencies) [![devDependency Status](https://david-dm.org/avihaymenahem/angular-webpack-es6/dev-status.svg)](https://david-dm.org/avihaymenahem/angular-webpack-es6#info=devDependencies)
 
-The ultimate bundle for large-scale applications developed at [Clicktale](https://www.clicktale.com/) which includes the top notch technologies including:
+The ultimate bundle for large-scale applications which includes the top notch technologies including:
 
 * Complete webpack bundling with support for multiple file types.
 * ES6, and ES7 support with babel.
